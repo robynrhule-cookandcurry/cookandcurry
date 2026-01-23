@@ -262,4 +262,20 @@
 .is-builder .nav-dropdown.collapsing {
   transition: none !important; }
 
+/* Navbar logo size */
+.navbar-logo-img {
+  height: 5rem;
+  width: auto;
+}
 
+/* Smaller logo on tablets & mobile */
+@media (max-width: 991px) {
+  .navbar-logo-img {
+    height: 3.8rem;
+  }
+}
+
+/* Vertically center logo in navbar (Mobirise fix) */
+.navbar-brand {
+  display: flex;
+  align-items: center;
