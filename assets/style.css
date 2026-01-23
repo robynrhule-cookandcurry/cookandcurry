@@ -282,14 +282,14 @@
 }
   /* Reduce vertical spacing for all sections */
 section {
-  padding-top: 3rem;
-  padding-bottom: 3rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
 }
 
 /* Even tighter spacing on mobile */
 @media (max-width: 768px) {
   section {
-    padding-top: 2rem;
-    padding-bottom: 2rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
   }
 }
