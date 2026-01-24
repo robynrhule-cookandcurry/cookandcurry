@@ -384,3 +384,24 @@ section {
     height: 5.5rem !important;
   }
 }
+/* Hide logo divider by default (desktop & tablet) */
+.mobile-only {
+  display: none;
+}
+
+/* Show logo ONLY on mobile */
+@media (max-width: 768px) {
+  .mobile-only {
+    display: block;
+  }
+
+  .logo-divider {
+    padding: 1.25rem 0;
+  }
+
+  .logo-divider-img {
+    max-width: 240px;
+    width: 100%;
+    height: auto;
+  }
+}
