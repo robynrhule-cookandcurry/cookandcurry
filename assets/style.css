@@ -315,3 +315,22 @@ section {
   position: relative;
 }
 
+/* Disable Mobirise background image */
+.no-bg {
+  background-image: none !important;
+  padding: 0 !important;
+}
+
+/* Hero image behaviour */
+.hero-img {
+  display: block;
+  max-height: 80vh;
+  object-fit: cover;
+}
+
+/* Mobile tuning */
+@media (max-width: 768px) {
+  .hero-img {
+    max-height: 60vh;
+  }
+}
