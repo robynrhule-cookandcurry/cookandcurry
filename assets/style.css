@@ -306,12 +306,3 @@ section {
     padding-bottom: 1.25rem !important;
   }
 }
-/* Remove extra internal spacing from Mobirise blocks */
-.card,
-.card-wrapper,
-.card-box {
-  padding-top: 0 !important;
-  padding-bottom: 0 !important;
-  margin-top: 0 !important;
-  margin-bottom: 0 !important;
-}
