@@ -334,3 +334,30 @@ section {
     max-height: 60vh;
   }
 }
+/* Offset page content for fixed navbar (mobile only) */
+@media (max-width: 768px) {
+  body {
+    padding-top: 80px;
+  }
+}
+/* Default logo size */
+.navbar-logo-img {
+  height: 3.5rem;
+  width: auto;
+}
+
+/* Bigger logo on mobile */
+@media (max-width: 768px) {
+  .navbar-logo-img {
+    height: 4.5rem;
+  }
+}
+.navbar {
+  min-height: 80px;
+}
+
+@media (max-width: 768px) {
+  .navbar {
+    min-height: 100px;
+  }
+}
