@@ -306,3 +306,18 @@ section {
     padding-bottom: 1.25rem !important;
   }
 }
+/* Hero background image */
+.cid-uXxBcRtifl {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 70vh;
+  position: relative;
+}
+
+/* Mobile height tweak */
+@media (max-width: 768px) {
+  .cid-uXxBcRtifl {
+    min-height: 60vh;
+  }
+}
