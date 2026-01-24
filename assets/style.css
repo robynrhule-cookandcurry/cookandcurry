@@ -369,7 +369,7 @@ section {
 /* Mobile-specific adjustment */
 @media (max-width: 768px) {
   #image07-1i {
-    margin-top: 120px !important;
+    margin-top: 90px !important;
   }
 }
 /* Force logo size */
