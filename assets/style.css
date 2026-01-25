@@ -405,3 +405,7 @@ section {
     height: auto;
   }
 }
+/* Remove empty buttons completely */
+a.btn:empty {
+  display: none !important;
+}
