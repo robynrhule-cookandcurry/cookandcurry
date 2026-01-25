@@ -415,3 +415,17 @@ a.btn:empty {
     padding: 0 !important;
   }
 }
+/* Remove empty mobile nav button container (Mobirise fix) */
+@media (max-width: 991px) {
+  .nav-dropdown-sm .nav-btn,
+  .nav-dropdown-sm .navbar-buttons,
+  .nav-dropdown-sm .mbr-section-btn {
+    display: none !important;
+    padding: 0 !important;
+    margin: 0 !important;
+  }
+
+  .nav-dropdown-sm .nav-btn::before {
+    display: none !important;
+  }
+}
